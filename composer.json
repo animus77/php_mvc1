@@ -1,0 +1,21 @@
+{
+    "name": "vaio/poo-composer",
+    "description": "trying to do my own project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "animus77",
+            "email": "animus7@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "App\\": "./models"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
